@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, p, ol, li {
 h1 {
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: navy;
+    background-color: darkgreen;
     padding: 10px;
     border-radius: 10px;
 }
