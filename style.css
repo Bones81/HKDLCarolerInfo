@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    background-image: url("Assets/Xmas tree.jpeg");
+    background-color: lightgrey;
+    background-size: cover;
+}
+h1, h2, h3, h4, h5, p, ol, li {
+    margin: 20px;
+    background-color: rgba(0,0,0,0.6)
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: navy;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkred;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p, h4, li {
+    font-size: 20px;
+}
+ol {
+    list-style-type: decimal;
+}
+strong, b {
+    font-weight: bold;
+}
+em, i {
+    font-style: italic;
+}
+span {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    height: 300px;
+}
+img {
+    max-height: 95%;
+}
