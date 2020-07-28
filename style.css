@@ -5,11 +5,11 @@ body {
     background-color: lightgrey;
     background-size: contain;
 }
-h1, h2, h3, h4, h5, p, div {
+h1, h2, h3, h4, h5, p, div, ol {
     margin: 20px 25px;
     background-color: rgba(0,0,0,0.6)
 }
-ol, li {
+li {
     background-color: rgba(0,0,0,0.6);
     padding: 5px 5px 5px 25px;
 }
@@ -80,4 +80,14 @@ div img {
 }
 div p {
     margin: 5 auto;
+}
+.leisure {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 300px;
+    vertical-align: baseline;
+}
+.leisure img {
+    max-height: 98%;
 }
