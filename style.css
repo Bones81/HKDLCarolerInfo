@@ -4,22 +4,67 @@ body {
     background-image: url("Assets/Xmas tree.jpeg");
     background-color: lightgrey;
     background-size: contain;
+    margin: 0 5px;
 }
-h1, h2, h3, h4, h5, p, div, ol {
+header {
+    position: fixed;
+    left: 0px;
+    min-height: 100%;
+    max-width: 25%;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.8);;
+}
+body {
+    position: float;
+    float: right;
+    max-width: 75%;
+}
+header ul {
+    margin: 0;
+    list-style: none;
+    background-color: none;
+    padding: 5px 10px;
+}
+header li {
+    padding: 0px;
+    background-color: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    padding: 0px;
+    text-align: right;
+}
+header a {
+    color: lightgrey;
+    text-decoration: none;
+}
+#top {
+    margin: 0 auto;
+}
+h2, h3, h4, h5, p, div {
     margin: 20px 25px;
-    background-color: rgba(0,0,0,0.6)
+    background-color: rgba(0,0,0,0.6);
+    text-align: justify
+}
+ol, ul {
+    margin: 0px 25px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 30px;
+}
+ul {
+    list-style: disc;
 }
 li {
-    background-color: rgba(0,0,0,0.6);
-    padding: 5px 5px 5px 25px;
+    background-color: rgba(0,0,0,0);
+    padding: 10px 5px 10px 25px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: darkgreen;
     padding: 15px;
-    border-radius: 10px;
     text-align: center;
+    border-bottom-right-radius: 20px;
 }
 
 h2 {
@@ -27,8 +72,10 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: darkred;
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
+    margin: 20px 5px;
+    line-height: 50px;
 }
 
 h3 {
@@ -39,14 +86,23 @@ h3 {
     padding: 10px;
     padding-left: 25px;
 }
+h3 a, p a {
+    color: lightblue;
+    text-decoration: underline;
+}
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
 h4 {
     background-color: navy;
     border-radius: 5px;
-    padding: 5px 5px 5px 25px;
+    padding: 5px 5px 5px 5px;
 }
 p, h4, li {
     font-size: 20px;
     line-height: 24px;
+    padding: 5px 5px 5px 15px;
 }
 ol {
     list-style-type: decimal;
@@ -75,7 +131,7 @@ img {
     height: 450px;
 }
 div img {
-    max-height: 75%;
+    max-height: 85%;
     margin: 0 auto;
 }
 div p {
