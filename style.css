@@ -147,3 +147,11 @@ div p {
 .leisure img {
     max-height: 98%;
 }
+#outlet-plug, #blender {
+    display: flex;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.img-caption {
+    text-align: center;
+}
