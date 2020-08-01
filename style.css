@@ -96,8 +96,12 @@ a:hover {
 }
 h4 {
     background-color: navy;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px 5px 5px 5px;
+}
+.special-note {
+    border-radius: 25px;
+    border: dotted 5px yellow;
 }
 p, h4, li {
     font-size: 20px;
