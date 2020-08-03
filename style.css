@@ -86,7 +86,7 @@ h3 {
     padding: 10px;
     padding-left: 25px;
 }
-h3 a, p a {
+a {
     color: lightblue;
     text-decoration: underline;
 }
@@ -151,11 +151,22 @@ div p {
 .leisure img {
     max-height: 98%;
 }
+#viewfromHPRC {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
 #outlet-plug, #blender {
     display: flex;
     max-width: 200px;
     margin: 0 auto;
 }
 .img-caption {
-    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+}
+#unionpaylogo {
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
 }
