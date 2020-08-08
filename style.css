@@ -141,6 +141,10 @@ div img {
 div p {
     margin: 5 auto;
 }
+.video-holder {
+    width: fit-content;
+    margin: 0 auto;
+}
 .leisure {
     display: flex;
     flex-direction: row;
