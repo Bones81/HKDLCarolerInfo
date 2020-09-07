@@ -161,10 +161,24 @@ div p {
 .leisure img {
     max-height: 98%;
 }
-#viewfromHPRC {
+video {
+    display: flex;
+    margin: 0 auto;
+    outline: none;
+}
+#viewfromHPRC, #HPRC-lobby, #footbridge, #HKD10bill {
     display: flex;
     width: 50%;
     margin: 0 auto;
+}
+#quartets {
+    display: flex;
+    flex-direction: row;
+    margin: 5 auto;
+    height: 280px;
+    width: 95%;
+    justify-content: center;
+    padding-top: 25px;
 }
 #outlet-plug, #blender {
     display: flex;
@@ -174,9 +188,26 @@ div p {
 .img-caption {
     margin: 0 auto;
     width: fit-content;
+    font-size: medium;
 }
 #unionpaylogo {
     display: flex;
     width: 150px;
+    margin: 0 auto;
+}
+.list-pic, .photo-moment {
+    display: flex;
+    max-width: 66%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.hiking-pic {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+}
+#sunset-peak-view {
+    display: flex;
+    max-width: 90%;
     margin: 0 auto;
 }
