@@ -211,3 +211,12 @@ video {
     max-width: 90%;
     margin: 0 auto;
 }
+#fish-breakfast, #la-creperie {
+    display: flex;
+    max-height: 400px;
+    margin: 0 auto;
+}
+iframe {
+    display: flex;
+    margin: 15px auto;
+}
